@@ -4,6 +4,8 @@
   --alt-color: #f3ffb6;
   --alt-color-2: #d38b5d;
   --alt-color-3: #99621e;
+  --page-gradient: linear-gradient(270deg, var(--alt-color), var(--page-color));
+  --page-gradient-2: linear-gradient(90deg, var(--alt-color-3), var(--alt-color));
 }
 
 * {
@@ -32,7 +34,7 @@ h2 {
 
 #recipie-div {
   height: 30vh;
-  background: var(--alt-color-3);
+  background: var(--page-gradient-2);
   border-radius: 20px;
   width: 25vw;
   margin-top: 5vh;
@@ -64,14 +66,8 @@ ul li {
   list-style-type: none;
   height: 20vh;
   font-size: 24px;
-  color: blue;
+  color: black;
   padding-top: 3vh;
-}
-
- a #ramen, #flank-steak, #miso {
-    align-items: center;
-    justify-content: center;
-    align-content: center;
 }
 
 ul li a:active,
