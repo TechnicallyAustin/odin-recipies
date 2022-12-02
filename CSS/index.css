@@ -1,0 +1,29 @@
+:root {
+  --page-color: #2c5530;
+  --page-color-2: #739e82;
+  --alt-color: #f3ffb6;
+  --alt-color-2: #d38b5d;
+  --alt-color-3: #99621e;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+body {
+  background: linear-gradient(270deg, var(--alt-color-3), var(--alt-color));
+}
+
+#title-div {
+    background: linear-gradient(270deg, var(--alt-color), var(--page-color));
+  width: 45%;
+  margin: auto;
+  border: 10px solid var(--alt-color-2);
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+}
