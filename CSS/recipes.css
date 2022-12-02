@@ -1,0 +1,18 @@
+:root {
+  --page-color: #2C5530;
+  --page-color-2: #739E82;
+  --alt-color: #F3FFB6;
+  --alt-color-2: #D38B5D;
+  --alt-color-3: #99621E;
+}
+
+
+#ramen-image, #steak-image {
+  width: 400px;
+  height: auto;
+}
+
+body h1 {
+  color: green;
+}
+
