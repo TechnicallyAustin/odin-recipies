@@ -16,14 +16,52 @@ body {
 }
 
 #title-div {
-    background: linear-gradient(270deg, var(--alt-color), var(--page-color));
-  width: 45%;
+  background: linear-gradient(270deg, var(--alt-color), var(--page-color));
+  width: 80%;
+  height: 25vh;
   margin: auto;
   border: 10px solid var(--alt-color-2);
   border-radius: 20px;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   font-size: 38px;
+}
+
+#recipie-div {
+    height: 25vh;
+}
+
+#recipie-div img {
+    height: 20vh;
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+}
+
+ul {
+    background: linear-gradient(270deg, var(--alt-color), var(--page-color));
+    width: 100%;
+    height: 75vh;
+    margin: auto;
+    border: 10px solid var(--alt-color-2);
+    border-radius: 20px;
+
+}
+
+ul li {
+  list-style-type: none;
+  padding: 2%;
+  height: 6vh;
+  font-size: 24px;
+}
+
+ul li a:active, ul li a:visited, ul li a:hover {
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+}
+
+ul img {
 }
