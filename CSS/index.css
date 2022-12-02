@@ -17,8 +17,7 @@
 }
 
 body {
-  background: linear-gradient(270deg, var(--alt-color-3), var(--alt-color));
-
+ background: linear-gradient(270deg, var(--alt-color), var(--page-color));
 }
 
 #title-div {
@@ -27,11 +26,26 @@ body {
   background-size: cover;
   height: 70vh;
   margin: auto;
+  width: auto;
+  border: 3px solid var(--alt-color)
 }
 
 #title-text {
-    color: white;
     text-shadow: black;
+    background-color: black;
+    opacity: .8;
+    height: 10vh;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+#title-text span {
+    color: white;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 2vh;
+    font-weight: bold;;
 }
 
 h1,
@@ -50,16 +64,17 @@ h2 {
 
 #recipie-div img {
   height: 20vh;
+  width: 20vw;
   display: inline;
   justify-content: space-between;
-  border: 4px solid whitesmoke;
-  border-radius: 20px;
+  border: 10px solid whitesmoke;
+  border-radius: 100px;
 }
 
 ul {
   background: linear-gradient(270deg, var(--alt-color), var(--page-color));
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   border: 10px solid var(--alt-color-2);
   border-radius: 20px;
   display: grid;
