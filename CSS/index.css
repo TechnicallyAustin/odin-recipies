@@ -7,8 +7,8 @@
   --page-gradient: linear-gradient(270deg, var(--alt-color), var(--page-color));
   --page-gradient-2: linear-gradient(90deg, var(--alt-color-3), var(--alt-color));
   --page-image: url("../assets/fire-2.jpg");
-  --page-image-2: url("../assets/kitchen-2.jpg");
-  --page-image-3: url("../assets/kitchen.jpg");
+  --page-image-2: url("../assets/cooking-4.webp");
+  --page-image-3: url("../assets/cooking-2.jpg");
 }
 
 * {
@@ -23,9 +23,9 @@ body {
 
 #title-div {
   /*background: linear-gradient(270deg, var(--alt-color), var(--page-color));*/
-  background: var(--page-image);
+  background: var(--page-image-3);
   background-size: cover;
-  height: 60vh;
+  height: 70vh;
   margin: auto;
 }
 
